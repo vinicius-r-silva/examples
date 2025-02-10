@@ -63,4 +63,6 @@ RUN make install
 RUN ldconfig
 
 WORKDIR /workspace
+RUN git clone https://github.com/vinicius-r-silva/examples
+
 CMD ["/bin/bash"]
